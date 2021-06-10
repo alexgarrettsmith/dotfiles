@@ -6,6 +6,5 @@ echo "Cloning repositories..."
 git config --global user.email "alex@codecourse.com"
 
 SITES=$HOME/Code
-CODECOURSE=$HOME/Code/codecourse
 
-git clone git@github.com:codecourse/codecourse.git $CODECOURSE/codecourse
+git clone git@github.com:codecourse/codecourse.git $SITES/codecourse

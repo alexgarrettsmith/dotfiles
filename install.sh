@@ -33,6 +33,7 @@ pecl install redis
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
+valet park ~/Code
 
 # Create a Sites directory
 mkdir $HOME/Code
