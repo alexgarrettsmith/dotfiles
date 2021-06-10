@@ -23,7 +23,10 @@ brew update
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
 brew bundle
-arch -arm64 brew install starship
+arch -arm64 brew install starship # Moved out of Brewfile due to prefix
+
+# Add items to the Finder sidebar
+mysides add Code file:///Users/alexgarrettsmith/Code
 
 # Install PHP extensions with PECL
 pecl install redis

@@ -39,6 +39,7 @@ cask 'audacity'
 cask 'helo'
 cask 'postman'
 cask 'battery-buddy'
+cask 'mysides'
 
 # Fonts
 cask 'font-fira-code-nerd-font'

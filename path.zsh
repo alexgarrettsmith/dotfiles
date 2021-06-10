@@ -9,3 +9,5 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 
 # Visual Studio Code
 export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"
+
+export STARSHIP_CONFIG=~/.dotfiles/starship.toml
