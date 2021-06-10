@@ -1,6 +1,7 @@
 # Taps
 tap 'homebrew/cask'
 tap 'homebrew/cask-versions'
+tap 'homebrew/cask-fonts'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
 
@@ -30,3 +31,14 @@ cask 'sublime-text'
 cask 'telegram-desktop'
 cask 'tinkerwell'
 cask 'visual-studio-code'
+cask 'hyper'
+cask 'postico'
+cask 'freeze'
+cask 'authy'
+cask 'audacity'
+cask 'helo'
+cask 'postman'
+cask 'battery-buddy'
+
+# Fonts
+cask 'font-fira-code-nerd-font'

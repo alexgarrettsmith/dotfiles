@@ -10,7 +10,12 @@ fi
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/alexgarrettsmith/.zprofile
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
+
+# Update Rosetta
+sudo softwareupdate --install-rosetta
 
 # Update Homebrew recipes
 brew update
@@ -18,12 +23,13 @@ brew update
 # Install all our dependencies with bundle (See Brewfile)
 brew tap homebrew/bundle
 brew bundle
+arch -arm64 brew install starship
 
 # Install PHP extensions with PECL
 pecl install redis
 
 # Install global Composer packages
-/usr/local/bin/composer global require laravel/installer laravel/valet beyondcode/expose
+/opt/homebrew/bin/composer global require laravel/installer laravel/valet beyondcode/expose
 
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install

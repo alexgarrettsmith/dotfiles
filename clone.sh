@@ -2,6 +2,10 @@
 
 echo "Cloning repositories..."
 
-SITES=$HOME/Code
+# Set Git globals
+git config --global user.email "alex@codecourse.com"
 
-# git clone git@github.com:codecourse/codecourse.git $SITES/codecourse
+SITES=$HOME/Code
+CODECOURSE=$HOME/Code/codecourse
+
+git clone git@github.com:codecourse/codecourse.git $CODECOURSE/codecourse

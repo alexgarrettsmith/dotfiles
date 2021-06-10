@@ -87,15 +87,17 @@ source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
+source $DOTFILES/path.zsh
+
 # You may need to manually set your language environment
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
+# if [[ -n $SSH_CONNECTION ]]; thenclear
 #   export EDITOR='vim'
 # else
-#   export EDITOR='mvim'
+#   export EDITOR='code -w'
 # fi
 
 # Compilation flags
@@ -109,3 +111,6 @@ export LANG=en_US.UTF-8
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# Starship
+eval "$(starship init zsh)"
