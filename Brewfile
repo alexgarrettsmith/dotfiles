@@ -42,3 +42,8 @@ cask 'battery-buddy'
 
 # Fonts
 cask 'font-fira-code-nerd-font'
+cask 'postgres-unofficial'
+
+# Mac app store
+mas 'Amphetamine', id: 937984704
+mas 'EasyRes (1.1.2)', id: 688211836
