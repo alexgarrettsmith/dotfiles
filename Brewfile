@@ -41,6 +41,7 @@ cask 'helo'
 cask 'postman'
 cask 'battery-buddy'
 cask 'mysides'
+cask 'desktoppr'
 
 # Fonts
 cask 'font-fira-code-nerd-font'

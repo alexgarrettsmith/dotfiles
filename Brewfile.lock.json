@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "2b72de723e471551d1f63621003357abba140f73"
+        "revision": "a2dd4015b234216a57563e1b41fe32816d4369db"
       },
       "homebrew/cask-versions": {
         "revision": "1708a03dca99fa06984438a897e88f5c19df5c09"
@@ -489,6 +489,12 @@
         "options": {
           "full_name": "mysides"
         }
+      },
+      "desktoppr": {
+        "version": "0.4",
+        "options": {
+          "full_name": "desktoppr"
+        }
       }
     },
     "mas": {
@@ -504,7 +510,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.1.11",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "3b6efb24f0285778a7973153c83d44b1c40fe267",
+        "Homebrew/homebrew-core": "522948f5c2a709c8ea799c6b2426dfc1bb2eb9fd",
         "CLT": "12.5.0.22.9",
         "Xcode": "12.5",
         "macOS": "11.4"

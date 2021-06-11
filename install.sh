@@ -54,3 +54,9 @@ ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
 # Set macOS preferences - we will run this last because this will reload the shell
 source .macos
+
+# Set the user profile photo
+sudo sh ./userphoto.sh alexgarrettsmith resources/alex.jpeg
+
+# Set the desktop wallpaper
+desktoppr ./resources/wallpaper.jpg
