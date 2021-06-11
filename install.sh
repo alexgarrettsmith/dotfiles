@@ -27,6 +27,7 @@ arch -arm64 brew install starship # Moved out of Brewfile due to prefix
 
 # Add items to the Finder sidebar
 mysides add Code file:///Users/alexgarrettsmith/Code
+mysides add Tutorials file:///Users/alexgarrettsmith/Library/Mobile%20Documents/com~apple~CloudDocs/Tutorials
 
 # Install PHP extensions with PECL
 pecl install redis

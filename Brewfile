@@ -11,6 +11,7 @@ brew 'coreutils' # Those that come with macOS are outdated
 brew 'git'
 brew 'mackup'
 brew 'mas' # Mac App Store manager
+brew 'libpq', link: true
 
 # Development
 brew 'php'
