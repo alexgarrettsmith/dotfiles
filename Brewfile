@@ -43,6 +43,7 @@ cask 'battery-buddy'
 cask 'mysides'
 cask 'desktoppr'
 cask 'alfred'
+cask 'microsoft-teams'
 
 # Fonts
 cask 'font-fira-code-nerd-font'

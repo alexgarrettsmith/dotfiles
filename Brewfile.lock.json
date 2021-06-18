@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "b1d1bd229aa0af9d131d6534922497d002149206"
+        "revision": "746bd74e4a76b097a69c706239adf5f382f46642"
       },
       "homebrew/cask-versions": {
-        "revision": "8cec104a5ca7ae954fe7d24445ee453c8d32f0b8"
+        "revision": "d438281822c0cbb976c4365df844556785bbc258"
       },
       "homebrew/cask-fonts": {
-        "revision": "d0cdeeada58dd1aeed60dc55ec81a9448f11b9b1"
+        "revision": "56b5f04cc3904df158fa632c3776943d3e8177c2"
       },
       "homebrew/bundle": {
         "revision": "5b6fa2f5fe5df3ff2cc5436045e1934b9be4ac13"
@@ -371,7 +371,7 @@
     },
     "cask": {
       "1password": {
-        "version": "7.8.5",
+        "version": "7.8.6",
         "options": {
           "full_name": "1password"
         }
@@ -383,13 +383,13 @@
         }
       },
       "firefox": {
-        "version": "89.0",
+        "version": "89.0.1",
         "options": {
           "full_name": "firefox"
         }
       },
       "google-chrome": {
-        "version": "91.0.4472.101",
+        "version": "91.0.4472.114",
         "options": {
           "full_name": "google-chrome"
         }
@@ -419,7 +419,7 @@
         }
       },
       "visual-studio-code": {
-        "version": "1.57.0",
+        "version": "1.57.1",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -431,7 +431,7 @@
         }
       },
       "postico": {
-        "version": "1.5.18",
+        "version": "1.5.19",
         "options": {
           "full_name": "postico"
         }
@@ -461,7 +461,7 @@
         }
       },
       "postman": {
-        "version": "8.6.1",
+        "version": "8.6.2",
         "options": {
           "full_name": "postman"
         }
@@ -501,6 +501,12 @@
         "options": {
           "full_name": "alfred"
         }
+      },
+      "microsoft-teams": {
+        "version": "1.4.00.11161",
+        "options": {
+          "full_name": "microsoft-teams"
+        }
       }
     },
     "mas": {
@@ -516,7 +522,7 @@
       "big_sur": {
         "HOMEBREW_VERSION": "3.1.12",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "da17220e03bb3d5b2945c318958880fb1bb257b4",
+        "Homebrew/homebrew-core": "37d4b75dfb1d687ba829fabcce8ba4fb7cef0ad1",
         "CLT": "12.5.0.22.9",
         "Xcode": "12.5",
         "macOS": "11.4"
