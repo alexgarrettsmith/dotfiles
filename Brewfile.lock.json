@@ -2,10 +2,10 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "a2dd4015b234216a57563e1b41fe32816d4369db"
+        "revision": "b1d1bd229aa0af9d131d6534922497d002149206"
       },
       "homebrew/cask-versions": {
-        "revision": "1708a03dca99fa06984438a897e88f5c19df5c09"
+        "revision": "8cec104a5ca7ae954fe7d24445ee453c8d32f0b8"
       },
       "homebrew/cask-fonts": {
         "revision": "d0cdeeada58dd1aeed60dc55ec81a9448f11b9b1"
@@ -495,6 +495,12 @@
         "options": {
           "full_name": "desktoppr"
         }
+      },
+      "alfred": {
+        "version": "4.3.4,1229",
+        "options": {
+          "full_name": "alfred"
+        }
       }
     },
     "mas": {
@@ -508,9 +514,9 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.1.11",
+        "HOMEBREW_VERSION": "3.1.12",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "522948f5c2a709c8ea799c6b2426dfc1bb2eb9fd",
+        "Homebrew/homebrew-core": "da17220e03bb3d5b2945c318958880fb1bb257b4",
         "CLT": "12.5.0.22.9",
         "Xcode": "12.5",
         "macOS": "11.4"

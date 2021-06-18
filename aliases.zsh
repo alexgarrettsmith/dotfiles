@@ -1,5 +1,6 @@
 # Shortcuts
 alias c="clear"
+alias chrome="open -a 'Google Chrome'"
 
 # Laravel
 alias a="php artisan"

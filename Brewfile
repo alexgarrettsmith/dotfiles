@@ -42,6 +42,7 @@ cask 'postman'
 cask 'battery-buddy'
 cask 'mysides'
 cask 'desktoppr'
+cask 'alfred'
 
 # Fonts
 cask 'font-fira-code-nerd-font'
