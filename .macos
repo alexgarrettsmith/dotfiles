@@ -123,7 +123,7 @@ defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 ###############################################################################
 
 # Set mouse/trackpad scaling speed
-defaults write -g com.apple.mouse.scaling 6.0
+defaults write -g com.apple.mouse.scaling 5.0
 
 # Trackpad: enable tap to click for this user and for the login screen
 # defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true

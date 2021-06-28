@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "746bd74e4a76b097a69c706239adf5f382f46642"
+        "revision": "14814ce4a09e0a7d72a3611e90bfdb5d22c6cd3f"
       },
       "homebrew/cask-versions": {
-        "revision": "d438281822c0cbb976c4365df844556785bbc258"
+        "revision": "ea3eb00146e9dee6ba8efac7ae5d99566a6d797e"
       },
       "homebrew/cask-fonts": {
-        "revision": "56b5f04cc3904df158fa632c3776943d3e8177c2"
+        "revision": "cc8aa7a9ccbd82633b073ab5b241e2d79e511997"
       },
       "homebrew/bundle": {
         "revision": "5b6fa2f5fe5df3ff2cc5436045e1934b9be4ac13"
@@ -377,7 +377,7 @@
         }
       },
       "1password-cli": {
-        "version": "1.10.2",
+        "version": "1.10.3",
         "options": {
           "full_name": "1password-cli"
         }
@@ -507,6 +507,12 @@
         "options": {
           "full_name": "microsoft-teams"
         }
+      },
+      "browserstacklocal": {
+        "version": "3.2.3",
+        "options": {
+          "full_name": "browserstacklocal"
+        }
       }
     },
     "mas": {
@@ -520,9 +526,9 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.1.12",
+        "HOMEBREW_VERSION": "3.2.0",
         "HOMEBREW_PREFIX": "/opt/homebrew",
-        "Homebrew/homebrew-core": "37d4b75dfb1d687ba829fabcce8ba4fb7cef0ad1",
+        "Homebrew/homebrew-core": "3db8b4b0cd360061b3f2a9b36ffd61b99fa28826",
         "CLT": "12.5.0.22.9",
         "Xcode": "12.5",
         "macOS": "11.4"

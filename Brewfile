@@ -43,6 +43,7 @@ cask 'mysides'
 cask 'desktoppr'
 cask 'alfred'
 cask 'microsoft-teams'
+cask 'browserstacklocal'
 
 # Fonts
 cask 'font-fira-code-nerd-font'
